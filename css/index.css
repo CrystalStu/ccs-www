@@ -1,0 +1,212 @@
+/* 头顶大字*/
+body {
+    height: 100vh;
+}
+.circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    display: block;
+    border-radius: 100%;
+    z-index: 1;
+    animation: floatview 10s infinite;
+}
+.circle1 {
+    top: 120px;
+    left: 145px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    background: #00a6ff;
+    background: linear-gradient(180deg, #00a6ff, #00e1ff);
+    animation: floatview 8s infinite;
+}
+.circle2 {
+    right: 175px;
+    top: 30px;
+    width: 140px;
+    height: 140px;
+    background: #2d3ee6;
+    background: linear-gradient(180deg, #2d3ee6, #6a77ff);
+}
+.circle3 {
+    left: 15px;
+    bottom: 150px;
+    width: 120px;
+    height: 120px;
+    background: #1548dc;
+    background: linear-gradient(180deg, #1548dc, #2083fe);
+}
+.circle4 {
+    right: 15px;
+    bottom: 220px;
+    width: 90px;
+    height: 90px;
+    z-index: 2;
+    background: #f95c75;
+    background: linear-gradient(180deg, #f95c75, #f98e9f);
+    animation: floatview 8s infinite;
+}
+@keyframes floatview {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(20px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 300px);
+    justify-content: center;
+    align-items: center;
+}
+.fl {
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.sl {
+    font-size: 18px;
+    text-align: center;
+}
+.button {
+    margin-bottom: 30px;
+}
+.logo {
+    width:100px;
+    height:100px;
+}
+/* 人员介绍 */
+
+a.widget5 {
+    text-decoration: none;
+    display: block;
+    color: #252629;
+    transition: all 0.25s ease;
+    background-color: #292929;
+    text-align: center;
+    border-radius: 2px;
+    transition: all .12s ease-out;
+}
+
+a.widget5:hover {
+    box-shadow: 0 0 36px #d8dde5;
+    opacity: 1;
+}
+
+a.widget5 .widget5-label {
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+a.widget5 .widget5-value {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+    display: block;
+    vertical-align: middle;
+}
+
+a.widget5 .widget5-box {
+    background: #f8f8f8;
+    padding: .2rem 1.5rem 1rem;
+}
+
+a.widget5 .widget5-trending img {
+    width: 64px;
+    border-radius: 50%;
+}
+
+a.widget5 .widget5-trending {
+    padding: 1.5rem 1.5rem;
+}
+
+/*  底部菜单 */
+.s-footer {
+    margin: 60px 0; }
+.s-footer ul {
+    display: flex;
+    justify-content: center; }
+.s-footer ul li {
+    margin-right: 30px;
+    font-size: 12px;
+    font-family: Langdon; }
+
+/* box */
+/* box 文章盒整体风格 */
+
+.box {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 10px 60px 0 rgba(29, 29, 31, 0.09);
+    transition: all .12s ease-out;
+}
+
+.box:hover {
+    box-shadow: 0 0 36px #d8dde5;
+    opacity: 1;
+}
+
+
+/* 组合图文 */
+
+
+.box .box-body {
+    padding: 1.5rem;
+}
+
+.box .box-desc {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 0.8rem;
+}
+
+.box .box-zht {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box .box-zht a {
+    color: #252629;
+}
+
+.box .box-zht a:hover {
+    color: #1E9FFF;
+}
+
+.box .box-footer {
+    border-top: 1px solid #f5f5f5;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1.5rem;
+}
+
+.box .footer-reference {
+    float: left;
+}
+
+.box .footer-reference img {
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.box .footer-rtime {
+    float: right;
+    color: #999999;
+}
+
+/* 分隔 */
+.separate{ margin: 30px 0 20px;}
+.separate fieldset{border: none; padding: 0; border-top: 1px solid #eee;}
+.separate fieldset legend{margin-left: 20px;  padding: 0 10px; font-size: 22px; font-weight: 300;}
