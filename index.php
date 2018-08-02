@@ -196,6 +196,18 @@
         </div>
 </div>
 
+        <!-- 侧边按钮 -->
+<script>
+    layui.use('util', function(){
+        var util = layui.util;
+
+        //执行
+        util.fixbar({
+            bar1: false
+        });
+    });
+</script>
+
 
 
         <!-- 一言获取 -->
@@ -204,7 +216,7 @@
         <div class="s-footer">
             <ul>
                 <li><strong>XSY</strong></li>
-                <li>Version: v1.0</li>
+                <li>Version: v1.1</li>
                 <li id="hitokoto">:D 获取中...</li>
             </ul>
         </div>
