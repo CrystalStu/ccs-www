@@ -15,7 +15,10 @@
 <br><br><br><br>
 <div class="layui-container">  
 <div class="layui-row">
-    <h1>时间轴<h1>
+  <!-- 分隔符 -->
+        <div class="separate">
+            <fieldset><legend><a name="accordion">时间轴 - Time Axis</a></legend></fieldset>
+        </div>
       <br><br>
 <ul class="layui-timeline">
     <li class="layui-timeline-item">
@@ -70,7 +73,14 @@
         </div>
     </li>
 </ul>
-  </div>  </div>   
+  <br><br>
+  <!-- 分隔符 -->
+        <div class="separate">
+            <fieldset><legend><a name="accordion">加入我们 - Join</a></legend></fieldset>
+        </div>
+  <br>
+  <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:610px;margin-left:auto;margin-right:auto;display:block;"></iframe>
+            </div> </div>
 </body>
 <!-- 一言获取 -->
 <footer>
@@ -78,7 +88,7 @@
         <div class="s-footer">
             <ul>
                 <li><strong>XSY</strong></li>
-                <li>Version: v1.0</li>
+                <li>Version: v1.1</li>
                 <li id="hitokoto">:D 获取中...</li>
             </ul>
         </div>
