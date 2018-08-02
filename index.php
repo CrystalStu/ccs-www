@@ -16,19 +16,19 @@
 <div class="layui-container">
     <div class="layui-row">
         <div class="layui-col-md12 main">
-            <!-- 这里四个球，捏不得 -->
+            <!-- 这里四个球 -->
             <span class="circle1"></span>
             <span class="circle2"></span>
             <span class="circle3"></span>
             <span class="circle4"></span>
             <div>
-                <img src="./photo/logo.png" class="logo">
+                <img src="//ww1.sinaimg.cn/large/005BYqpgly1ftvs1kzqwyj31kw1kw1ed.jpg" class="logo">
             </div>
             <div class="text-center">
                 <p class="fl">
                     <span>Crystal Computer Studio</span>
                     <br>
-                    <span class="sl">水晶电脑工作室</span>
+                    <span class="sl">用代码改变世界</span>
                 </p>
             </div>
             <div class="button">
