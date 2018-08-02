@@ -101,7 +101,7 @@
 
         <!-- 分隔符 -->
         <div class="separate">
-            <fieldset><legend><a name="accordion">项目 - Object</a></legend></fieldset>
+            <fieldset><legend><a name="accordion">项目 - Project</a></legend></fieldset>
         </div>
 
 <br><br>
