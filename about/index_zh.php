@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>关于 - CCS</title>
-    <link rel="shortcut icon" href="./logo.png">
-    <link rel="bookmark" href="./logo.png">
-    <script>var lang = "zh";</script>
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="/layui/layui.js"></script>
-    <link rel="stylesheet" href="/layui/css/layui.css">
-    <link rel="stylesheet" href="/css/index.css">
-</head>
-<body>
+<?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
@@ -90,38 +77,5 @@
         <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:610px;margin-left:auto;margin-right:auto;display:block;"></iframe>
     </div>
 </div>
+<?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
 </body>
-
-
-<!-- 侧边按钮 -->
-<script>
-    layui.use('util', function(){
-        var util = layui.util;
-
-        //执行
-        util.fixbar({
-            bar1: false
-        });
-    });
-</script>
-
-<!-- 一言获取 -->
-<footer>
-  <script src="/js/language.js"></script>
-    <div class="layui-col-md12">
-        <div class="s-footer">
-            <ul>
-                <li>Language:&nbsp;<select id="langSelector" onchange="changeLang();">
-                  <option value="not">- Not selected -</option>
-                  <option value="en">English</option>
-                  <option value="ja">日本語</option>
-                  <option value="zh">中文</option>
-                </select><!--<button onclick="changeLang();">Change</button>--></li>
-                <li><strong>Powered by &copy; Crystal Web Service & XSY</strong></li>
-                <li>Version: v1.1</li>
-                <li id="hitokoto">:D 获取中...</li>
-            </ul>
-        </div>
-    </div>
-</footer>
-</html>

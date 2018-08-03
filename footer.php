@@ -1,3 +1,5 @@
+<script src="/js/language.js"></script>
+
 <!-- 侧边按钮 -->
 <script>
     layui.use(['util',  'layer'], function(){
@@ -18,10 +20,10 @@
                         area: ['250px', '200px'],
                         shadeClose: true, //开启遮罩关闭
                         content: '<ul class="mdui-list">\n' +
-                        '  <li class="mdui-list-item mdui-ripple"><a target="_blank" href="index_zh.php">中文</a></li>\n' +
-                        '  <li class="mdui-list-item mdui-ripple"><a target="_blank" href="index_en.php">English</a></li>\n' +
-                        '  <li class="mdui-divider"></li>\n' +
-                        '  <li class="mdui-list-item mdui-ripple"><a target="_blank" href="index_ja.php">日本語</a></li>\n' +
+                        '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_en();">English</li>\n' +
+                        //'  <li class="mdui-divider"></li>\n' +
+                        '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_ja();">日本語</li>\n' +
+                        '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_zh();">中文</a></li>\n' +
                         '</ul>'
                     });
                 }
@@ -33,13 +35,12 @@
 
 <!-- footer -->
 <footer>
-    <script src="/js/language.js"></script>
     <div class="layui-col-md12">
         <div class="s-footer">
             <ul>
                 <li><strong>Powered by &copy; Crystal Web Service & XSY</strong></li>
-                <li>Version: v1.2</li>
-                <li id="hitokoto">:D 获取中...</li>
+                <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
+                <?php if($_COOKIE["lang"] == "zh") echo("<li id='hitokoto'>:D 获取中...</li>"); ?>
             </ul>
         </div>
     </div>

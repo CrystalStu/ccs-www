@@ -1,6 +1,4 @@
-<?php
-include("head.php");
-?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
 <!-- 头 -->
 <div class="layui-container">
     <div class="layui-row">
@@ -184,6 +182,4 @@ include("head.php");
                 </div>
             </div>
         </div>
-<?php
-include("footer.php");
-?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
