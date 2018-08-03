@@ -1,16 +1,10 @@
-var Terminal = {
-    // 辨别移动终端的语言
-    language : (navigator.browserLanguage || navigator.language).toLowerCase()
-}
-//跳转其他页面地址
-switch(Terminal.language){
-    case 'en-us':
-        theUrl = '/en.php';
-        break;
-    case 'ja-jp':
-        theUrl = '/jp.php';
-        break;
+function changeLang() {
+  var langSelector = document.getElementById("langSelector");
+  switch(langSelector.value){
+    case 'not':
+      break;
     default:
-        theUrl = '/index.php';
+      if(lang != langSelector.value) location.href = "./changeLang.php?lang=" + langSelector.value + "&target=" + document.URL;
+      break;
+  }
 }
-location.href = theUrl;

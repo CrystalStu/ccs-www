@@ -6,10 +6,10 @@
     <link rel="shortcut icon" href="./logo.png">
     <link rel="bookmark" href="./logo.png">
     <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="./layui/layui.js"></script>
-    <script src="./js/language.js"></script>
-    <link rel="stylesheet" href="./layui/css/layui.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <script src="/layui/layui.js"></script>
+    <script src="/js/language.js"></script>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
 <br><br><br><br>
@@ -18,7 +18,7 @@
 
         <!-- 分隔符 -->
         <div class="separate">
-            <fieldset><legend><a name="accordion">时间轴 - Time Axis</a></legend></fieldset>
+            <fieldset><legend><a name="accordion">时间轴</a></legend></fieldset>
         </div>
 
         <br>
@@ -107,10 +107,17 @@
 
 <!-- 一言获取 -->
 <footer>
+  <script src="/js/language.js"></script>
     <div class="layui-col-md12">
         <div class="s-footer">
             <ul>
-                <li><strong>XSY</strong></li>
+                <li>Language:&nbsp;<select id="langSelector" onchange="changeLang();">
+                  <option value="not">- Not selected -</option>
+                  <option value="en">English</option>
+                  <option value="ja">日本語</option>
+                  <option value="zh">中文</option>
+                </select><!--<button onclick="changeLang();">Change</button>--></li>
+                <li><strong>Powered by &copy; Crystal Web Service & XSY</strong></li>
                 <li>Version: v1.1</li>
                 <li id="hitokoto">:D 获取中...</li>
             </ul>
