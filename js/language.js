@@ -4,7 +4,7 @@ function changeLang() {
     case 'not':
       break;
     default:
-      if(lang != langSelector.value) location.href = "./changeLang.php?lang=" + langSelector.value + "&target=" + document.URL;
+      if(lang != langSelector.value) location.href = "/changeLang.php?lang=" + langSelector.value + "&target=" + document.URL;
       break;
   }
 }

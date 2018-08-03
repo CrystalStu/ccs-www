@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>About - CCS</title>
+    <title>关于 - CCS</title>
     <link rel="shortcut icon" href="./logo.png">
     <link rel="bookmark" href="./logo.png">
+    <script>var lang = "zh";</script>
     <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
     <script src="/layui/layui.js"></script>
-    <script src="/js/language.js"></script>
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/css/index.css">
 </head>
@@ -73,7 +73,7 @@
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
-                    <h3 class="layui-timeline-title">未来。。。</h3>
+                    <h3 class="layui-timeline-title">未来将会有更多有趣的事情。</h3>
                 </div>
             </li>
         </ul>
@@ -83,7 +83,7 @@
 
         <!-- 分隔符 -->
         <div class="separate">
-            <fieldset><legend><a name="accordion">加入我们 - Join</a></legend></fieldset>
+            <fieldset><legend><a name="accordion">加入我们</a></legend></fieldset>
         </div>
 
         <br>
