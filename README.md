@@ -1,14 +1,14 @@
 ## Crystal Computer Studio Version-1.2.0
 ### Chinese:
-Õâ¸öÏîÄ¿À´Ö®²»Ò×£¬¾­¹ı¹¤×÷ÊÒ³ÉÔ±µÄ¹²Í¬Ğ­×÷£¬²Å·¢²¼ÁËÕâ¿ÉÒÔÕıÊ½ÉÏÏßµÄ³ÌĞò£¬ºÄÊ±4320 min£¬¾«ĞÄ´òÔì³öÕâ¿îÈçÊ«Ò»°ãÃÀÃîµÄ³ÌĞò¡£
-####¸ĞĞ»£º
-XSY£¨Ö÷Òª¿ª·¢£©
-TURX£¨¼¼ÊõÖ§³Ö£¬ÈÕÎÄ·­Òë£©
-Stardust£¨Ó¢ÎÄ·­Òë£©
+è¿™ä¸ªé¡¹ç›®æ¥ä¹‹ä¸æ˜“ï¼Œç»è¿‡å·¥ä½œå®¤æˆå‘˜çš„å…±åŒåä½œï¼Œæ‰å‘å¸ƒäº†è¿™å¯ä»¥æ­£å¼ä¸Šçº¿çš„ç¨‹åºï¼Œè€—æ—¶4320 minï¼Œç²¾å¿ƒæ‰“é€ å‡ºè¿™æ¬¾å¦‚è¯—ä¸€èˆ¬ç¾å¦™çš„ç¨‹åºã€‚
+#### æ„Ÿè°¢ï¼š
+XSYï¼ˆä¸»è¦å¼€å‘ï¼‰
+TURXï¼ˆæŠ€æœ¯æ”¯æŒï¼Œæ—¥æ–‡ç¿»è¯‘ï¼‰
+Stardustï¼ˆè‹±æ–‡ç¿»è¯‘ï¼‰
 
-### English£º
+### Englishï¼š
 The project was hard won. Through the co - operation of the members of the studio, the program, which could be formally launched, took 4320 min, elaborately creating this beautiful and beautiful program.
-#### Thank£º
+#### Thankï¼š
 XSY (main development)
 TURX (technical support, Japanese translation)
 Stardust (English translation)
