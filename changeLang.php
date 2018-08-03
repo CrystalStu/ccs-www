@@ -12,4 +12,4 @@ switch ($lang){
       setcookie("lang", "en");
       break;
 }
-//header('Location: ' . $target);
+header('Location: ' . $target);
