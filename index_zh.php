@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>CCS - Crystal Studios</title>
-    <link rel="shortcut icon" href="./logo.png">
-    <link rel="bookmark" href="./logo.png">
-    <script>var lang = "zh";</script>
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="/layui/layui.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosanssc.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
-    <link rel="stylesheet" href="/layui/css/layui.css">
-    <link rel="stylesheet" href="/css/index.css">
-</head>
-<body>
+<?php
+include("head.php");
+?>
 <!-- 头 -->
 <div class="layui-container">
     <div class="layui-row">
@@ -46,182 +30,160 @@
             </div>
         </div>
 
-<!-- 介绍等 -->
-<div class="layui-row layui-col-space25">
-    <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/TURX" target="_blank">
-            <div class="widget5-trending">
-                <img src="./photo/turx.jpg">
+        <!-- 介绍等 -->
+        <div class="layui-row layui-col-space25">
+            <div class="layui-col-md3">
+                <a class="widget5" href="https://git.cstu.gq/CCS/OI/TURX" target="_blank">
+                    <div class="widget5-trending">
+                        <img src="./photo/turx.jpg">
+                    </div>
+                    <div class="widget5-box">
+                        <div class="widget5-value">TURX</div>
+                        <div class="widget5-label">室长</div>
+                    </div>
+                    <div class="layui-clear"></div>
+                </a>
             </div>
-            <div class="widget5-box">
-                <div class="widget5-value">TURX</div>
-                <div class="widget5-label">室长</div>
-            </div>
-            <div class="layui-clear"></div>
-        </a>
-    </div>
 
 
-    <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/callG" target="_blank">
-            <div class="widget5-trending">
-                <img src="./photo/callg.jpg">
+            <div class="layui-col-md3">
+                <a class="widget5" href="https://git.cstu.gq/CCS/OI/callG" target="_blank">
+                    <div class="widget5-trending">
+                        <img src="./photo/callg.jpg">
+                    </div>
+                    <div class="widget5-box">
+                        <div class="widget5-value">callG</div>
+                        <div class="widget5-label">副室长</div>
+                    </div>
+                    <div class="layui-clear"></div>
+                </a>
             </div>
-            <div class="widget5-box">
-                <div class="widget5-value">callG</div>
-                <div class="widget5-label">副室长</div>
-            </div>
-            <div class="layui-clear"></div>
-        </a>
-    </div>
 
-    <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/Magwing" target="_blank">
-            <div class="widget5-trending">
-                <img src="./photo/magwing.jpg">
+            <div class="layui-col-md3">
+                <a class="widget5" href="https://git.cstu.gq/CCS/OI/Magwing" target="_blank">
+                    <div class="widget5-trending">
+                        <img src="./photo/magwing.jpg">
+                    </div>
+                    <div class="widget5-box">
+                        <div class="widget5-value">Magwing</div>
+                        <div class="widget5-label">前室长</div>
+                    </div>
+                    <div class="layui-clear"></div>
+                </a>
             </div>
-            <div class="widget5-box">
-                <div class="widget5-value">Magwing</div>
-                <div class="widget5-label">前室长</div>
-            </div>
-            <div class="layui-clear"></div>
-        </a>
-    </div>
 
-    <div class="layui-col-md3">
+            <div class="layui-col-md3">
 
-        <a class="widget5" href="https://hap5.top/" target="_blank">
-            <div class="widget5-trending">
-                <img src="./photo/xsy.jpg">
+                <a class="widget5" href="https://hap5.top/" target="_blank">
+                    <div class="widget5-trending">
+                        <img src="./photo/xsy.jpg">
+                    </div>
+                    <div class="widget5-box">
+                        <div class="widget5-value">XSY</div>
+                        <div class="widget5-label">WEB工程师</div>
+                    </div>
+                    <div class="layui-clear"></div>
+                </a>
             </div>
-            <div class="widget5-box">
-                <div class="widget5-value">XSY</div>
-                <div class="widget5-label">WEB工程师</div>
-            </div>
-            <div class="layui-clear"></div>
-        </a>
-    </div>
-</div>
-<br><br>
+        </div>
+        <br><br>
 
         <!-- 分隔符 -->
         <div class="separate">
             <fieldset><legend><a name="accordion">项目</a></legend></fieldset>
         </div>
 
-<br><br>
+        <br><br>
         <!-- 项目 -->
-<div class="layui-col-space30">
-<div class="layui-col-md3">
-        <div class="box">
-             <div class="box-body">
-                 <h2 class="box-zht">
-                     <a href="https://git.cstu.gq/CCS/QL/">Quick Launcher</a>
-                 </h2>
-                 <div class="box-desc">
-                     <span>Quick Launcher for Xinyuan Middle School</span>
-                 </div>
-             </div>
-            <div class="box-footer">
-                <div class="footer-reference">
-                    <img src="./photo/turx.jpg" alt="">
-                    <span class="footer-author">TURX</span>
-                </div>
-                <div class="footer-rtime">
-                    <span>Jun 10, 2018</span>
-                </div>
-            </div>
-        </div>
-</div>
-
-        <div class="layui-col-md3">
-            <div class="box">
-                <div class="box-body">
-                    <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/OI/">OI</a>
-                    </h2>
-                    <div class="box-desc">
-                        <span>Crystal Studio的算法竞赛组</span>
+        <div class="layui-col-space30">
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/QL/">Quick Launcher</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Quick Launcher for Xinyuan Middle School</span>
+                        </div>
                     </div>
-                </div>
-                <div class="box-footer">
-                    <div class="footer-reference">
-                        <img src="./photo/turx.jpg" alt="">
-                        <span class="footer-author">TURX</span>
-                    </div>
-                    <div class="footer-rtime">
-                        <span>Jun 25, 2018</span>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img src="./photo/turx.jpg" alt="">
+                            <span class="footer-author">TURX</span>
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 10, 2018</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="layui-col-md3">
-            <div class="box">
-                <div class="box-body">
-                    <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
-                    </h2>
-                    <div class="box-desc">
-                        <span>Crystal Studio 基于WPF制作的实用软件</span>
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/OI/">OI</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Crystal Studio的算法竞赛组</span>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img src="./photo/turx.jpg" alt="">
+                            <span class="footer-author">TURX</span>
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 25, 2018</span>
+                        </div>
                     </div>
                 </div>
-                <div class="box-footer">
-                    <div class="footer-reference">
-                        <img src="./photo/callg.jpg" alt="">
-                        <span class="footer-author">callG</span>
+            </div>
+
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Crystal Studio 基于WPF制作的实用软件</span>
+                        </div>
                     </div>
-                    <div class="footer-rtime">
-                        <span>Jun 20, 2018</span>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img src="./photo/callg.jpg" alt="">
+                            <span class="footer-author">callG</span>
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 20, 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Crystal Studio 的部分网站</span>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img src="./photo/turx.jpg" alt="">
+                            <span class="footer-author">TURX</span>
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 9, 2018</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="layui-col-md3">
-            <div class="box">
-                <div class="box-body">
-                    <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
-                    </h2>
-                    <div class="box-desc">
-                        <span>Crystal Studio 的部分网站</span>
-                    </div>
-                </div>
-                <div class="box-footer">
-                    <div class="footer-reference">
-                        <img src="./photo/turx.jpg" alt="">
-                        <span class="footer-author">TURX</span>
-                    </div>
-                    <div class="footer-rtime">
-                        <span>Jun 9, 2018</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-</div>
-
-
-
-        <!-- 一言获取 -->
-<footer>
-  <script src="/js/language.js"></script>
-    <div class="layui-col-md12">
-        <div class="s-footer">
-            <ul>
-                <li>Language:&nbsp;<select id="langSelector" onchange="changeLang();">
-                  <option value="not">- Not selected -</option>
-                  <option value="en">English</option>
-                  <option value="ja">日本語</option>
-                  <option value="zh">中文</option>
-                </select><!--<button onclick="changeLang();">Change</button>--></li>
-                <li><strong>Powered by &copy; Crystal Web Service & XSY</strong></li>
-                <li>Version: v1.1</li>
-                <li id="hitokoto">:D 获取中...</li>
-            </ul>
-        </div>
-    </div>
-</footer>
-
-</body>
-</html>
+<?php
+include("footer.php");
+?>
