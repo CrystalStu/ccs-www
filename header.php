@@ -15,5 +15,3 @@
     <link href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/css/index.css">
-</head>
-<body>
