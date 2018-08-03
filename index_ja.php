@@ -1,4 +1,9 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
+<title>CCS - Crystal Studio</title>
+<script>var lang = "ja";</script>
+</head>
+<body>
+
 <!-- 头 -->
 <div class="layui-container">
     <div class="layui-row">
@@ -37,7 +42,7 @@
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">TURX</div>
-                <div class="widget5-label">Founder & Chief Executive</div>
+                <div class="widget5-label">Chief Executive</div>
             </div>
             <div class="layui-clear"></div>
         </a>
@@ -64,7 +69,7 @@
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">Magwing</div>
-                <div class="widget5-label">Former Chief Executive</div>
+                <div class="widget5-label">Former Executive</div>
             </div>
             <div class="layui-clear"></div>
         </a>
@@ -78,7 +83,7 @@
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">XSY</div>
-                <div class="widget5-label">Web Administrator</div>
+                <div class="widget5-label">Web Constructor</div>
             </div>
             <div class="layui-clear"></div>
         </a>
@@ -106,7 +111,7 @@
              </div>
             <div class="box-footer">
                 <div class="footer-reference">
-                    <img src="./photo/turx.jpg" alt="">
+                    <img src="./photo/turx.jpg">
                     <span class="footer-author">TURX</span>
                 </div>
                 <div class="footer-rtime">
@@ -128,7 +133,7 @@
                 </div>
                 <div class="box-footer">
                     <div class="footer-reference">
-                        <img src="./photo/turx.jpg" alt="">
+                        <img src="./photo/turx.jpg">
                         <span class="footer-author">TURX</span>
                     </div>
                     <div class="footer-rtime">
@@ -150,7 +155,7 @@
                 </div>
                 <div class="box-footer">
                     <div class="footer-reference">
-                        <img src="./photo/callg.jpg" alt="">
+                        <img src="./photo/callg.jpg">
                         <span class="footer-author">callG</span>
                     </div>
                     <div class="footer-rtime">
@@ -172,7 +177,7 @@
                 </div>
                 <div class="box-footer">
                     <div class="footer-reference">
-                        <img src="./photo/turx.jpg" alt="">
+                        <img src="./photo/turx.jpg">
                         <span class="footer-author">TURX</span>
                     </div>
                     <div class="footer-rtime">

@@ -1,4 +1,9 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
+<title>About - Crystal Studio</title>
+<script>var lang = "ja";</script>
+</head>
+<body>
+
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
@@ -73,9 +78,8 @@
         </div>
 
         <br>
-        <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:610px;margin-left:auto;margin-right:auto;display:block;"></iframe>
+        <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:700px;margin-left:auto;margin-right:auto;display:block;"></iframe>
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
-</body>
-</html>
+

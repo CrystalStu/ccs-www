@@ -2,15 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CCS - Crystal Studios</title>
-    <link rel="shortcut icon" href="./logo.png">
-    <link rel="bookmark" href="./logo.png">
-    <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="/layui/layui.js"></script>
+    <title>CCS - Crystal Studio</title>
+    <link rel="shortcut icon" href="logo.png">
+    <link rel="bookmark" href="logo.png">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/css/index.css">
+    <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+    <script src="/layui/layui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
     <script>var lang = "zh";</script>
 </head>
 <body>
@@ -122,7 +122,7 @@
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg" alt="">
+                            <img src="./photo/turx.jpg">
                             <span class="footer-author">TURX</span>
                         </div>
                         <div class="footer-rtime">
@@ -144,7 +144,7 @@
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg" alt="">
+                            <img src="./photo/turx.jpg">
                             <span class="footer-author">TURX</span>
                         </div>
                         <div class="footer-rtime">
@@ -166,7 +166,7 @@
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/callg.jpg" alt="">
+                            <img src="./photo/callg.jpg">
                             <span class="footer-author">callG</span>
                         </div>
                         <div class="footer-rtime">
@@ -237,7 +237,7 @@
             <div class="layui-col-md12">
                 <div class="s-footer">
                     <ul>
-                        <li><strong>Powered by &copy; Crystal Web Service & XSY</strong></li>
+                        <li><strong>Powered by &copy; Crystal Web Service &amp; XSY</strong></li>
                         <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
                         <li id="hitokoto">:D 获取中...</li>
                     </ul>
