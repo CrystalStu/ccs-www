@@ -2,7 +2,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-        <link rel="stylesheet" href="//cdn.hap5.top/code/serverchan/serverchan.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanssc.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+        <link rel="stylesheet" href="serverchan.min.css" type="text/css" />
         <link rel="stylesheet" href="//cdn.hap5.top/code/serverchan/tip.min.css" type="text/css" />
 		<link rel="shortcut icon" href="//cdn.hap5.top/photo/ico.png">
         <link rel="bookmark" href="//cdn.hap5.top/photo/ico.png">
@@ -42,8 +47,8 @@
                     <label for="desp">申込書</label>
                     <textarea class="form-control" id="desp" row="3" placeholder="" name="desp" required></textarea>
                 </div>
-                <button type="submit" id="submit-btn" class="btn btn-primary">提交</button>
-                <button type="reset" class="btn btn-primary" onclick="$('input').val('');$('textarea').html('')">　重置　</button>
+                <button type="submit" id="submit-btn" class="btn btn-primary">	申し出る</button>
+                <button type="reset" class="btn btn-primary" onclick="$('input').val('');$('textarea').html('')">　リセット　</button>
             </form>
         </div>
         <script src="//cdn.hap5.top/code/serverchan/submit.min.js"></script>

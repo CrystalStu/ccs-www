@@ -3,7 +3,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Server酱</title>
         <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
-        <link rel="stylesheet" href="//cdn.hap5.top/code/serverchan/serverchan.min.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanssc.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+        <link rel="stylesheet" href="serverchan.min.css" type="text/css" />
         <link rel="stylesheet" href="//cdn.hap5.top/code/serverchan/tip.min.css" type="text/css" />
 		<link rel="shortcut icon" href="//cdn.hap5.top/photo/ico.png">
         <link rel="bookmark" href="//cdn.hap5.top/photo/ico.png">

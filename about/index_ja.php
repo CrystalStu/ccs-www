@@ -6,8 +6,12 @@
     <link rel="shortcut icon" href="./logo.png">
     <link rel="bookmark" href="./logo.png">
     <script>var lang = "ja";</script>
-    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
     <script src="/layui/layui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanssc.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/css/index.css">
 </head>
