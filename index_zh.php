@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CCS - Crystal Studio</title>
+    <title>CCS - Crystal Studios</title>
     <link rel="shortcut icon" href="logo.png">
     <link rel="bookmark" href="logo.png">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css">
@@ -247,4 +247,3 @@
 
 </body>
 </html>
-

@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
-    <title>CCS - Crystal Studio</title>
+    <title>CCS - Crystal Studios</title>
     <script>var lang = "en";</script>
 </head>
 <body>
