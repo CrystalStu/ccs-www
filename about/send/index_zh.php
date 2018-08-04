@@ -24,7 +24,7 @@
                 </div>
                 <div class="form-group">
                     <label for="contact">联系方式</label>
-                    <input type="email" class="form-control" id="contact" name="contact" placeholder="你的邮箱地址" onkeydown="if(event.keyCode==13) return false;" value="" required>
+                    <input type="email" class="form-control" id="contact" name="contact" placeholder="您的邮箱地址" onkeydown="if(event.keyCode==13) return false;" value="" required>
                 </div>
                 <div class="form-group">
                     <label for="desp">按格式的申请书</label>

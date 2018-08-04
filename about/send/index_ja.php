@@ -23,7 +23,7 @@
                 </div>
                 <div class="form-group">
                     <label for="contact">連絡先</label>
-                    <input type="email" class="form-control" id="contact" name="contact" placeholder="メール・ライン" onkeydown="if(event.keyCode==13) return false;" value="" required>
+                    <input type="email" class="form-control" id="contact" name="contact" placeholder="あなたのメールアドレス" onkeydown="if(event.keyCode==13) return false;" value="" required>
                 </div>
                 <div class="form-group">
                     <label for="desp">申込書</label>
