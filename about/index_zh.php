@@ -3,7 +3,7 @@
 <script>var lang = "zh";</script>
 </head>
 <body>
-  
+
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
@@ -71,8 +71,8 @@
                       <br>
                         经过工程师们的努力CCS网站正式上线!
                       <br><br>更新日志<br>
-                      1.新增侧边栏以及修复诸多bug<br>
-                      2.完善多语言版本跳转判断
+                      1. 新增侧边栏以及修复诸多bug<br>
+                      2. 完善多语言版本跳转判断
                     </p>
                 </div>
             </li>
@@ -97,4 +97,3 @@
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
-

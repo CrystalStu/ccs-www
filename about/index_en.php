@@ -3,7 +3,7 @@
 <script>var lang = "en";</script>
 </head>
 <body>
-  
+
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
@@ -69,15 +69,15 @@
                     <p>
                         With the great endeavour of our engineers6., The version 1.0.2.0 of Crystal Studio’s website was successfully launched.
                       <br><br>Update log<br>
-                      1.New sideward toolbar and a variety of debugging<br>
-                      2.Improving the jump instruction of different language options
+                      1. New sideward toolbar and a variety of debugging<br>
+                      2. Improving the jump instruction of different language options
                     </p>
                 </div>
             </li>
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
-                    <h3 class="layui-timeline-title">8.There comes the more interesting future.</h3>
+                    <h3 class="layui-timeline-title">8. There comes the more interesting future.</h3>
                 </div>
             </li>
         </ul>
@@ -95,4 +95,3 @@
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
-

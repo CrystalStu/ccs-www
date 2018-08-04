@@ -64,6 +64,20 @@
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
+                    <h3 class="layui-timeline-title">2018年8月3日</h3>
+                    <p>
+                        Crystal Computer Studioサイト1.0.2.0
+                      <br>
+                        オンラインをしました！
+                      <br><br>更新<br>
+                      1. BUGは修理をしました<br>
+                      2. 多言語バージョン
+                    </p>
+                </div>
+            </li>
+            <li class="layui-timeline-item">
+                <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+                <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">件のほうが面白いに未来があります！</h3>
                 </div>
             </li>
@@ -82,4 +96,3 @@
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
-
