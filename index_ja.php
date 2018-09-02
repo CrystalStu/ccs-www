@@ -36,7 +36,7 @@
 <!-- 介绍等 -->
 <div class="layui-row layui-col-space25">
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/TURX" target="_blank">
+        <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
             <div class="widget5-trending">
                 <img src="./photo/turx.jpg">
             </div>
@@ -50,7 +50,7 @@
 
 
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/callG" target="_blank">
+        <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
             <div class="widget5-trending">
                 <img src="./photo/callg.jpg">
             </div>
@@ -63,7 +63,7 @@
     </div>
 
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/CCS/OI/Magwing" target="_blank">
+        <a class="widget5" href="https://git.cstu.gq/Magwing" target="_blank">
             <div class="widget5-trending">
                 <img src="./photo/magwing.jpg">
             </div>
