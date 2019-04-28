@@ -14,13 +14,13 @@
             <span class="circle3"></span>
             <span class="circle4"></span>
             <div>
-                <img src="//ww1.sinaimg.cn/large/005BYqpgly1ftvs1kzqwyj31kw1kw1ed.jpg" class="logo">
+                <img id="logo">
             </div>
             <div class="text-center">
                 <p class="fl">
                     <span>Crystal Computer Studio</span>
                     <br>
-                    <span class="sl">Creating, Coding, Dreaming</span>
+                    <span class="sl">Creating, Coding, and Dreaming</span>
                 </p>
             </div>
             <div class="button">
@@ -38,7 +38,7 @@
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/turx.jpg">
+                        <img id="turx-ava">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">TURX</div>

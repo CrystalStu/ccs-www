@@ -79,7 +79,8 @@ body {
 .button {
     margin-bottom: 30px;
 }
-.logo {
+#logo {
+    content:url(/photo/logo.png);
     width:100px;
     height:100px;
 }
@@ -125,6 +126,10 @@ a.widget5 .widget5-box {
 a.widget5 .widget5-trending img {
     width: 64px;
     border-radius: 50%;
+}
+
+#turx-ava {
+    content:url(https://www.gravatar.com/avatar/dd1b4b433ea7c443e28e42f4bf45f06f?s=64);
 }
 
 a.widget5 .widget5-trending {
