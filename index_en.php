@@ -38,7 +38,7 @@
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
                     <div class="widget5-trending">
-                        <img id="turx-ava">
+                        <img class="avatar-turx">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">TURX</div>
@@ -52,7 +52,7 @@
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/callg.jpg">
+                        <img class="avatar-callg">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">callG</div>
@@ -63,13 +63,13 @@
             </div>
 
             <div class="layui-col-md3">
-                <a class="widget5" href="https://git.cstu.gq/Magwing" target="_blank">
+                <a class="widget5" href="https://git.cstu.gq/Stardust" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/magwing.jpg">
+                        <img class="avatar-stardust">
                     </div>
                     <div class="widget5-box">
-                        <div class="widget5-value">Magwing</div>
-                        <div class="widget5-label">Former Executive</div>
+                        <div class="widget5-value">Stardust</div>
+                        <div class="widget5-label">Managing Member</div>
                     </div>
                     <div class="layui-clear"></div>
                 </a>
@@ -77,9 +77,9 @@
 
             <div class="layui-col-md3">
 
-                <a class="widget5" href="https://hap5.top/" target="_blank">
+                <a class="widget5" href="https://xsy.fun/" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/xsy.jpg">
+                        <img class="avatar-xsy">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">XSY</div>
@@ -103,19 +103,18 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/QL/">Quick Launcher</a>
+                            <a href="https://git.cstu.gq/MCQ/ModernMinecraft/">Modern Minecraft</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Quick Launcher for Xinyuan Middle School</span>
+                            <span>This is a reconstructed, modernized game launcher for Minecraft players based on KMCCC.</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-turx">
                         </div>
                         <div class="footer-rtime">
-                            <span>Jun 10, 2018</span>
+                            <span>Jun 11, 2019</span>
                         </div>
                     </div>
                 </div>
@@ -125,41 +124,19 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/OI/">OI</a>
+                            <a>Crystal Information System</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Crystal Studio’s Informatics Olympic Competition Team</span>
+                            <span>Based on Crystal User System, we can build a lot of applications.<br>For example, things like proxy and blog are being implemented.</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-turx">
+                            <img class="avatar-xsy">
                         </div>
                         <div class="footer-rtime">
-                            <span>Jun 25, 2018</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="layui-col-md3">
-                <div class="box">
-                    <div class="box-body">
-                        <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
-                        </h2>
-                        <div class="box-desc">
-                            <span>The software developed by Crystal Studio based on the WPF</span>
-                        </div>
-                    </div>
-                    <div class="box-footer">
-                        <div class="footer-reference">
-                            <img src="./photo/callg.jpg">
-                            <span class="footer-author">callG</span>
-                        </div>
-                        <div class="footer-rtime">
-                            <span>Jun 20, 2018</span>
+                            <span>Jun 19, 2018</span>
                         </div>
                     </div>
                 </div>
@@ -172,16 +149,39 @@
                             <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Websites of the Crystal Studio’s departments</span>
+                            <span>A part of websites for our departments</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-xsy">
+                            <img class="avatar-turx">
+                            <img class="avatar-stardust">
                         </div>
                         <div class="footer-rtime">
                             <span>Jun 9, 2018</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Quick Launcher<br>A software for teachers based on WPF</span>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img class="avatar-callg">
+                            <img class="avatar-turx">
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 10, 2018</span>
                         </div>
                     </div>
                 </div>

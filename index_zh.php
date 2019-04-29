@@ -29,9 +29,9 @@
             </div>
             <div class="text-center">
                 <p class="fl">
-                    <span>Crystal Computer Studio</span>
+                    <span>Crystal 计算机工作室</span>
                     <br>
-                    <span class="sl">用代码改变世界</span>
+                    <span class="sl">用代码改变世界。</span>
                 </p>
             </div>
             <div class="button">
@@ -49,7 +49,7 @@
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
                     <div class="widget5-trending">
-                        <img id="turx-ava">
+                        <img class="avatar-turx">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">TURX</div>
@@ -63,7 +63,7 @@
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/callg.jpg">
+                        <img class="avatar-callg">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">callG</div>
@@ -74,13 +74,13 @@
             </div>
 
             <div class="layui-col-md3">
-                <a class="widget5" href="https://git.cstu.gq/Magwing" target="_blank">
+                <a class="widget5" href="https://git.cstu.gq/Stardust" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/magwing.jpg">
+                        <img class="avatar-stardust">
                     </div>
                     <div class="widget5-box">
-                        <div class="widget5-value">Magwing</div>
-                        <div class="widget5-label">前室长</div>
+                        <div class="widget5-value">Stardust</div>
+                        <div class="widget5-label">管理组成员</div>
                     </div>
                     <div class="layui-clear"></div>
                 </a>
@@ -88,13 +88,13 @@
 
             <div class="layui-col-md3">
 
-                <a class="widget5" href="https://hap5.top/" target="_blank">
+                <a class="widget5" href="https://xsy.fun/" target="_blank">
                     <div class="widget5-trending">
-                        <img src="./photo/xsy.jpg">
+                        <img class="avatar-xsy">
                     </div>
                     <div class="widget5-box">
                         <div class="widget5-value">XSY</div>
-                        <div class="widget5-label">WEB工程师</div>
+                        <div class="widget5-label">Web 工程师</div>
                     </div>
                     <div class="layui-clear"></div>
                 </a>
@@ -110,23 +110,22 @@
         <br><br>
         <!-- 项目 -->
         <div class="layui-col-space30">
-            <div class="layui-col-md3">
+        <div class="layui-col-md3">
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/QL/">Quick Launcher</a>
+                            <a href="https://git.cstu.gq/MCQ/ModernMinecraft/">Modern Minecraft</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Quick Launcher for Xinyuan Middle School</span>
+                            <span>这是一个面向 Minecraft 玩家、基于 KMCCC 的富有现代感的重制版游戏启动器。</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-turx">
                         </div>
                         <div class="footer-rtime">
-                            <span>Jun 10, 2018</span>
+                            <span>Jun 11, 2019</span>
                         </div>
                     </div>
                 </div>
@@ -136,41 +135,19 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/OI/">OI</a>
+                            <a>Crystal 信息系统</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Crystal Studio的算法竞赛组</span>
+                            <span>我们正在基于 Crystal 用户系统构建各种各样的应用。<br>例如，代理和博客等功能正在被实现。</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-turx">
+                            <img class="avatar-xsy">
                         </div>
                         <div class="footer-rtime">
-                            <span>Jun 25, 2018</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="layui-col-md3">
-                <div class="box">
-                    <div class="box-body">
-                        <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
-                        </h2>
-                        <div class="box-desc">
-                            <span>Crystal Studio 基于WPF制作的实用软件</span>
-                        </div>
-                    </div>
-                    <div class="box-footer">
-                        <div class="footer-reference">
-                            <img src="./photo/callg.jpg">
-                            <span class="footer-author">callG</span>
-                        </div>
-                        <div class="footer-rtime">
-                            <span>Jun 20, 2018</span>
+                            <span>Jun 19, 2018</span>
                         </div>
                     </div>
                 </div>
@@ -183,13 +160,14 @@
                             <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
                         </h2>
                         <div class="box-desc">
-                            <span>Crystal Studio 的部分网站</span>
+                            <span>我们的部分网站</span>
                         </div>
                     </div>
                     <div class="box-footer">
                         <div class="footer-reference">
-                            <img src="./photo/turx.jpg" alt="">
-                            <span class="footer-author">TURX</span>
+                            <img class="avatar-xsy">
+                            <img class="avatar-turx">
+                            <img class="avatar-stardust">
                         </div>
                         <div class="footer-rtime">
                             <span>Jun 9, 2018</span>
@@ -197,53 +175,29 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- 侧边按钮 -->
-        <script>
-            layui.use(['util',  'layer'], function(){
-                var util = layui.util
-                    ,layer = layui.layer;
-                //执行
-                util.fixbar({
-                    bar1: "&#xe614"
-                    ,click: function(type){
-                        console.log(type);
-                        if(type === 'bar1'){
-                            layer.open({
-                                type: 1,
-                                title:'Language',
-                                skin: 'layui-layer-molv', //样式类名
-                                closeBtn: 1, //显示关闭按钮
-                                anim: 2,
-                                area: ['250px', '200px'],
-                                shadeClose: true, //开启遮罩关闭
-                                content: '<ul class="mdui-list">\n' +
-                                    '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_en();">English</li>\n' +
-                                    '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_ja();">日本語</li>\n' +
-                                    '  <li class="mdui-list-item mdui-ripple" onclick="changeLang_newDesign_zh();">中文</a></li>\n' +
-                                    '</ul>'
-                            });
-                        }
-                    }
-                });
-            });
-        </script>
-
-
-        <!-- footer -->
-        <footer>
-            <script src="/js/language.js"></script>
-            <div class="layui-col-md12">
-                <div class="s-footer">
-                    <ul>
-                        <li><strong>Powered by &copy; Crystal Web Service &amp; XSY</strong></li>
-                        <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
-                        <li id="hitokoto">:D 获取中...</li>
-                    </ul>
+            <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Quick Launcher<br>为老师们制作的基于 WPF 的实用软件</span>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img class="avatar-callg">
+                            <img class="avatar-turx">
+                        </div>
+                        <div class="footer-rtime">
+                            <span>Jun 10, 2018</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
-</body>
-</html>
+
+<?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>

@@ -37,9 +37,22 @@
     <div class="layui-col-md12">
         <div class="s-footer">
             <ul>
-                <li><strong>Powered by &copy; Crystal Web Service &amp; XSY</strong></li>
+                <li><strong>Powered by &copy; XSY @ Crystal Web Service</strong></li>
                 <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
                 <?php if($_COOKIE["lang"] == "zh") echo("<li id='hitokoto'>:D 获取中...</li>"); ?>
+                <li><?php
+                switch($_COOKIE["lang"]) {
+                    case "zh":
+                        echo("翻译者：XSY");
+                        break;
+                    case "ja":
+                        echo("翻訳担当：TURX");
+                        break;
+                    case "en":
+                        echo("Translator: Stardust");
+                        break;
+                }
+                ?></li>
             </ul>
         </div>
     </div>

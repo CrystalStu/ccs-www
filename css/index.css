@@ -1,4 +1,5 @@
-/* 头顶大字*/
+/* Header */
+
 body {
     height: 100vh;
 }
@@ -84,7 +85,8 @@ body {
     width:100px;
     height:100px;
 }
-/* 人员介绍 */
+
+/* Introduction */
 
 a.widget5 {
     text-decoration: none;
@@ -128,15 +130,12 @@ a.widget5 .widget5-trending img {
     border-radius: 50%;
 }
 
-#turx-ava {
-    content:url(https://www.gravatar.com/avatar/dd1b4b433ea7c443e28e42f4bf45f06f?s=64);
-}
-
 a.widget5 .widget5-trending {
     padding: 1.5rem 1.5rem;
 }
 
-/*  底部菜单 */
+/* Footer */
+
 .s-footer {
     margin: 60px 0; }
 .s-footer ul {
@@ -161,9 +160,7 @@ a.widget5 .widget5-trending {
     opacity: 1;
 }
 
-
-/* 组合图文 */
-
+/* Box */
 
 .box .box-body {
     padding: 1.5rem;
@@ -210,7 +207,24 @@ a.widget5 .widget5-trending {
     color: #999999;
 }
 
-/* 分隔 */
+/* Spanning */
 .separate{ margin: 30px 0 20px;}
 .separate fieldset{border: none; padding: 0; border-top: 1px solid #eee;}
 .separate fieldset legend{margin-left: 20px;  padding: 0 10px; font-size: 22px; font-weight: 300;}
+
+/* Avatar */
+.avatar-turx {
+    content:url("https://www.gravatar.com/avatar/dd1b4b433ea7c443e28e42f4bf45f06f?s=64");
+}
+
+.avatar-xsy {
+    content:url("https://www.gravatar.com/avatar/c8e8bbd60da13e9b7572b8acb08a09ec?s=64");
+}
+
+.avatar-callg {
+    content:url("https://www.gravatar.com/avatar/c2bb0af7eedeb880b5554d6a3c8894c1?s=64");
+}
+
+.avatar-stardust {
+    content:url("/photo/stardust.jpg");
+}

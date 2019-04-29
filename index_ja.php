@@ -18,7 +18,7 @@
             </div>
             <div class="text-center">
                 <p class="fl">
-                    <span>Crystal Computer Studio</span>
+                    <span>Crystalコンピュータースタジオ</span>
                     <br>
                     <span class="sl">ここで夢を叶えています。</span>
                 </p>
@@ -38,7 +38,7 @@
     <div class="layui-col-md3">
         <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
             <div class="widget5-trending">
-                <img id="turx-ava">
+                <img class="avatar-turx">
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">TURX</div>
@@ -52,7 +52,7 @@
     <div class="layui-col-md3">
         <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
             <div class="widget5-trending">
-                <img src="./photo/callg.jpg">
+                <img class="avatar-callg">
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">callG</div>
@@ -63,13 +63,13 @@
     </div>
 
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/Magwing" target="_blank">
+        <a class="widget5" href="https://git.cstu.gq/Stardust" target="_blank">
             <div class="widget5-trending">
-                <img src="./photo/magwing.jpg">
+                <img class="avatar-stardust">
             </div>
             <div class="widget5-box">
-                <div class="widget5-value">Magwing</div>
-                <div class="widget5-label">Former Executive</div>
+                <div class="widget5-value">Stardust</div>
+                <div class="widget5-label">Managing Member</div>
             </div>
             <div class="layui-clear"></div>
         </a>
@@ -77,9 +77,9 @@
 
     <div class="layui-col-md3">
 
-        <a class="widget5" href="https://hap5.top/" target="_blank">
+        <a class="widget5" href="https://xsy.fun/" target="_blank">
             <div class="widget5-trending">
-                <img src="./photo/xsy.jpg">
+                <img class="avatar-xsy">
             </div>
             <div class="widget5-box">
                 <div class="widget5-value">XSY</div>
@@ -99,45 +99,67 @@
 <br><br>
         <!-- 项目 -->
 <div class="layui-col-space30">
-<div class="layui-col-md3">
-        <div class="box">
-             <div class="box-body">
-                 <h2 class="box-zht">
-                     <a href="https://git.cstu.gq/CCS/QL/">Quick Launcher</a>
-                 </h2>
-                 <div class="box-desc">
-                     <span>Quick Launcher for Xinyuan Middle School</span>
-                 </div>
-             </div>
-            <div class="box-footer">
-                <div class="footer-reference">
-                    <img src="./photo/turx.jpg">
-                    <span class="footer-author">TURX</span>
+        <div class="layui-col-md3">
+            <div class="box">
+                <div class="box-body">
+                    <h2 class="box-zht">
+                        <a href="https://git.cstu.gq/MCQ/ModernMinecraft/">Modern Minecraft</a>
+                    </h2>
+                    <div class="box-desc">
+                        <span>これはマインクラフトのプレーヤーのためにKMCCCを基づいて現代感があるのゲームランチャーのリストラバージョンである。</span>
+                    </div>
                 </div>
-                <div class="footer-rtime">
-                    <span>平成30年一月10日</span>
+                <div class="box-footer">
+                    <div class="footer-reference">
+                        <img class="avatar-turx">
+                    </div>
+                    <div class="footer-rtime">
+                        <span>平成31年1月11日</span>
+                    </div>
                 </div>
             </div>
         </div>
-</div>
+
+        <div class="layui-col-md3">
+                <div class="box">
+                    <div class="box-body">
+                        <h2 class="box-zht">
+                            <a>Crystal情報システム</a>
+                        </h2>
+                        <div class="box-desc">
+                            <span>Crystalユーザーシステムを基づいて色々な機能がある。<br>例えば、プロクシやブローグなどは実現されている。</span>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <div class="footer-reference">
+                            <img class="avatar-turx">
+                            <img class="avatar-xsy">
+                        </div>
+                        <div class="footer-rtime">
+                            <span>平成30年1月19日</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
 
         <div class="layui-col-md3">
             <div class="box">
                 <div class="box-body">
                     <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/OI/">OI</a>
+                        <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
                     </h2>
                     <div class="box-desc">
-                        <span>Crystal Studioのアルゴリズムグループ</span>
+                        <span>一部のCrystalスタジオグループのウェブサイトである。</span>
                     </div>
                 </div>
                 <div class="box-footer">
                     <div class="footer-reference">
-                        <img src="./photo/turx.jpg">
-                        <span class="footer-author">TURX</span>
+                        <img class="avatar-xsy">
+                        <img class="avatar-turx">
+                        <img class="avatar-stardust">
                     </div>
                     <div class="footer-rtime">
-                        <span>平成30年一月25日</span>
+                        <span>平成30年6月9日</span>
                     </div>
                 </div>
             </div>
@@ -150,38 +172,16 @@
                         <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
                     </h2>
                     <div class="box-desc">
-                        <span>ＷＰＦでユーティリティプログラムを作りました</span>
+                        <span>Quick Launcher<br>教師のためにWPFでユーティリティプログラムを作ってみた。</span>
                     </div>
                 </div>
                 <div class="box-footer">
                     <div class="footer-reference">
-                        <img src="./photo/callg.jpg">
-                        <span class="footer-author">callG</span>
+                        <img class="avatar-callg">
+                        <img class="avatar-turx">
                     </div>
                     <div class="footer-rtime">
-                        <span>平成30年一月20日</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="layui-col-md3">
-            <div class="box">
-                <div class="box-body">
-                    <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
-                    </h2>
-                    <div class="box-desc">
-                        <span>一部Crystal Studiosのサイト</span>
-                    </div>
-                </div>
-                <div class="box-footer">
-                    <div class="footer-reference">
-                        <img src="./photo/turx.jpg">
-                        <span class="footer-author">TURX</span>
-                    </div>
-                    <div class="footer-rtime">
-                        <span>平成30年六月9日</span>
+                        <span>平成30年1月10日</span>
                     </div>
                 </div>
             </div>

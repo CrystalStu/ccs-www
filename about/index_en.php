@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
-<title>About - Crystal Studio</title>
+<title>About - Crystal Computer Studio</title>
 <script>var lang = "en";</script>
 </head>
 <body>
@@ -7,6 +7,10 @@
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
+
+    <button class="layui-btn layui-btn-primary" onclick="window.location.assign('..');">
+        <i class="layui-icon">&#xe603;</i> Back
+    </button>
 
         <!-- 分隔符 -->
         <div class="separate">
@@ -22,7 +26,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">June 20, 2015</h3>
                     <p>
-                        The Crystal Computer Studio was established<i class="layui-icon"></i>
+                        Crystal Computer Studio was established.
                     </p>
                 </div>
             </li>
@@ -31,7 +35,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">January 2018</h3>
                     <p>
-                        Crystal Computer Studio delivered its first question on CTS
+                        Crystal Computer Studio delivered its first question on CTS.
                     </p>
                 </div>
             </li>
@@ -40,7 +44,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">October 2018</h3>
                     <p>
-                        After a series of daunting explorations and a mass of perspiration, Crystal Studio eventually owned its first server
+                        After a series of daunting explorations and a mass of perspiration, Crystal Computer Studio eventually owned its first server (CWS-UK).
                     </p>
                 </div>
             </li>
@@ -67,17 +71,17 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">August 3, 2018</h3>
                     <p>
-                        With the great endeavour of our engineers6., The version 1.0.2.0 of Crystal Studio’s website was successfully launched.
-                      <br><br>Update log<br>
-                      1. New sideward toolbar and a variety of debugging<br>
-                      2. Improving the jump instruction of different language options
+                        With the great endeavour of our engineers, The version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?> of this website was successfully launched!
+                      <br><br>Changelog<br>
+                      1. Changed main members.<br>
+                      2. Fixed some errors in translations.
                     </p>
                 </div>
             </li>
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
-                    <h3 class="layui-timeline-title">8. There comes the more interesting future.</h3>
+                    <h3 class="layui-timeline-title">There comes the more interesting future.</h3>
                 </div>
             </li>
         </ul>
@@ -91,7 +95,9 @@
         </div>
 
         <br>
-        <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:700px;margin-left:auto;margin-right:auto;display:block;"></iframe>
+        <a class="layui-btn layui-btn-normal layui-btn-lg layui-btn-radius" href="/doc/req.pdf" target="_blank">
+            <i class="layui-icon">&#xe601;</i> Download (PDF)
+        </a>
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>

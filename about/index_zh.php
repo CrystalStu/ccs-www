@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
-<title>About - Crystal Studio</title>
+<title>About - Crystal 计算机工作室</title>
 <script>var lang = "zh";</script>
 </head>
 <body>
@@ -7,6 +7,10 @@
 <br><br><br><br>
 <div class="layui-container">
     <div class="layui-row">
+
+    <button class="layui-btn layui-btn-primary" onclick="window.location.assign('..');">
+        <i class="layui-icon">&#xe603;</i> 返回
+    </button>
 
         <!-- 分隔符 -->
         <div class="separate">
@@ -22,7 +26,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2015年6月20日</h3>
                     <p>
-                        Crystal Computer Studio成立<i class="layui-icon"></i>
+                        Crystal 计算机工作室成立了！
                     </p>
                 </div>
             </li>
@@ -31,7 +35,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2018年1月</h3>
                     <p>
-                        Crystal Computer Studio第一次在CTS发题
+                        第一次在CTS发题。
                     </p>
                 </div>
             </li>
@@ -40,7 +44,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2018年10月</h3>
                     <p>
-                        经历艰险，Crystal Computer Studio有了第一台自己的服务器！
+                        经历艰险，我们有了第一台自己的服务器（CWS-UK）！
                     </p>
                 </div>
             </li>
@@ -49,7 +53,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2018年6月21日</h3>
                     <p>
-                        Crystal Computer Studio召开第一场组内会议！
+                        我们召开了第一场组内会议！
                     </p>
                 </div>
             </li>
@@ -58,7 +62,7 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2018年8月3日</h3>
                     <p>
-                        Crystal Computer Studio网站1.0发布，并且成功上线！
+                        Crystal 计算机工作室网站 1.0 发布！
                     </p>
                 </div>
             </li>
@@ -67,12 +71,12 @@
                 <div class="layui-timeline-content layui-text">
                     <h3 class="layui-timeline-title">2018年8月3日</h3>
                     <p>
-                        Crystal Computer Studio网站1.0.2.0
+                        Crystal 计算机工作室网站 <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?>
                       <br>
-                        经过工程师们的努力CCS网站正式上线!
+                        经过工程师们的努力正式上线!
                       <br><br>更新日志<br>
-                      1. 新增侧边栏以及修复诸多bug<br>
-                      2. 完善多语言版本跳转判断
+                      1. 变动了主要成员<br>
+                      2. 更正了一些翻译错误
                     </p>
                 </div>
             </li>
@@ -93,7 +97,9 @@
         </div>
 
         <br>
-        <iframe frameborder=0 src="./send/index.php" style="max-width:800px;width:100%;height:700px;margin-left:auto;margin-right:auto;display:block;"></iframe>
+        <a class="layui-btn layui-btn-normal layui-btn-lg layui-btn-radius" href="/doc/req.pdf" target="_blank">
+            <i class="layui-icon">&#xe601;</i> 下载 (PDF)
+        </a>
     </div>
 </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
