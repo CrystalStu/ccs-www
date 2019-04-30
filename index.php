@@ -1,26 +1,30 @@
 <?php
 if(!$_COOKIE["lang"]) {
-  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 1);
+  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
   switch ($lang){
       case "zh":
         setcookie("lang", "zh");
+        include("index_zh.php");
         break;
       case "ja":
         setcookie("lang", "ja");
+        include("index_ja.php");
         break;
       default:
         setcookie("lang", "en");
+        include("index_en.php");
         break;
   }
-}
-switch ($_COOKIE["lang"]) {
-  case "zh":
-    include("index_zh.php");
-    break;
-  case "ja":
-    include("index_ja.php");
-    break;
-  default:
-    include("index_en.php");
-    break;
+} else {
+  switch ($_COOKIE["lang"]) {
+    case "zh":
+      include("index_zh.php");
+      break;
+    case "ja":
+      include("index_ja.php");
+      break;
+    default:
+      include("index_en.php");
+      break;
+  }  
 }
