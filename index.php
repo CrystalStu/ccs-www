@@ -1,6 +1,6 @@
 <?php
 if(!$_COOKIE["lang"]) {
-  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+  $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 1);
   switch ($lang){
       case "zh":
         setcookie("lang", "zh");
