@@ -4,15 +4,15 @@ if(!$_COOKIE["lang"]) {
   switch ($lang){
       case "zh":
         setcookie("lang", "zh");
-        include("index_zh.php");
+        header("Refresh:0");
         break;
       case "ja":
         setcookie("lang", "ja");
-        include("index_ja.php");
+        header("Refresh:0");
         break;
       default:
         setcookie("lang", "en");
-        include("index_en.php");
+        header("Refresh:0");
         break;
   }
 } else {
