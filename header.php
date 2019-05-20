@@ -10,6 +10,7 @@
     <link href="//fonts.googleapis.com/earlyaccess/notosanssc.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/css/index.css">
     <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>

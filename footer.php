@@ -37,6 +37,8 @@
     <div class="layui-col-md12">
         <div class="s-footer">
             <ul>
+                <li><a href="https://twitter.com/crystalstuX" alt="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://t.me/crystalccs" alt="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
                 <li><strong>Powered by &copy; Crystal Web Service</strong></li>
                 <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
                 <?php if($_COOKIE["lang"] == "zh") echo("<li id='hitokoto'>:D 获取中...</li>"); ?>
