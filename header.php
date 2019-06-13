@@ -2,6 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Here, CCS, is a place where students can create, code, and dream, and a sub organization attached to Crystal Studios.">
+    <meta name="keywords" content="Crystal Computer Studio, CCS, Crystalコンピュータースタジオ, Crystal,Crystal Studio, Crystalスタジオ, Crystal Studios,Crystalスタジオグループ">
+    <meta name="author" content="Crystal Web Service">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="logo.png">
     <link rel="bookmark" href="logo.png">
     <link href="//fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">

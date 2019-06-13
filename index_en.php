@@ -25,12 +25,13 @@
             </div>
             <div class="button">
                 <a class="layui-btn layui-btn-primary  layui-btn-lg layui-btn-radius" style="width: 170px" href="https://www.cstu.gq" target="_blank"><i
-                            class="layui-icon">&#xe609;</i> Main site
+                            class="layui-icon">&#xe609;</i> Group
                 </a>
                 <a class="layui-btn layui-btn-warm  layui-btn-lg layui-btn-radius" style="width: 170px" href="./about"><i
                             class="layui-icon">&#xe60b;</i> About
                 </a>
             </div>
+            <span class="bsl">Here, CCS, is a place where students can create, code, and dream, and a sub organization attached to Crystal Studios.</span>
         </div>
 
         <!-- 介绍等 -->

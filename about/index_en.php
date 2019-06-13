@@ -12,6 +12,15 @@
         <i class="layui-icon">&#xe603;</i> Back
     </button>
 
+        <div class="separate">
+            <fieldset><legend><a name="accordion">Introduction</a></legend></fieldset>
+        </div>
+
+        <p>Crystal Computer Studio is the core of Crystal Studios. We built this community to provide a place for youngsters, especially talented students, to discuss trending technologies, and to practice them via coding in person.</p><br>
+        <p>Professional skill practices here. Not only can you share competitive programming ideas, but also engage in our practical projects. Our administrative group selects interesting and prevalent topics which proposed by members and promotes them. Most of our members have at least one unique skill, for instance, fluid Javascript writing, DevOps operating, and competitive programming coding.</p><br>
+        <p>Creative thinking collides here. As what it says above, our members can propose their thoughts directly. Once the proposals being approved, others would help them to done the works in a better way. We would also push members' good articles and thoughts to our multilingual information service.</p><br>
+        <p>Different cultures meets here. This might be not a main aspect of this studio, but there is truly a place you can find people who have the same interests as you do beyond Computer Science. To illustrate, just as what you have seen, some of us are interested in foreign languages and cultures. There are also members who like Computer Engineering.</p>
+
         <!-- 分隔符 -->
         <div class="separate">
             <fieldset><legend><a name="accordion">Time Axis</a></legend></fieldset>
@@ -73,8 +82,8 @@
                     <p>
                         With the great endeavour of our engineers, The version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?> of this website was successfully launched!
                       <br><br>Changelog<br>
-                      1. Changed main members.<br>
-                      2. Fixed some errors in translations.
+                      1. SEO optimization<br>
+                      2. Introduction
                     </p>
                 </div>
             </li>

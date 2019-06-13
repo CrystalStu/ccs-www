@@ -24,8 +24,8 @@
                 </p>
             </div>
             <div class="button">
-                <a class="layui-btn layui-btn-primary  layui-btn-lg layui-btn-radius" style="width: 170px" href="https://www.cstu.gq" target="_blank"><i
-                            class="layui-icon">&#xe609;</i> メインサイト
+                <a class="layui-btn layui-btn-primary  layui-btn-lg layui-btn-radius" style="width: 205px" href="https://www.cstu.gq" target="_blank"><i
+                            class="layui-icon">&#xe609;</i> グループ (英語)
                 </a>
                 <a class="layui-btn layui-btn-warm  layui-btn-lg layui-btn-radius" style="width: 170px" href="./about"><i
                             class="layui-icon">&#xe60b;</i> について

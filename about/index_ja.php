@@ -12,6 +12,15 @@
         <i class="layui-icon">&#xe603;</i> 戻す
     </button>
 
+    <div class="separate">
+            <fieldset><legend><a name="accordion">紹介</a></legend></fieldset>
+        </div>
+
+        <p>クリスタルコンピュータースタジオはクリスタルスタジオグループのコアです。<ruby>中学生<rt>ちゅうがくせい</rt></ruby>・<ruby>高校生<rt>こうこうせい</rt></ruby>へコンピューターサイエンスが<ruby>普及<rt>ふきゅう</rt></ruby>するのためにこのスタジオを<ruby>建<rt>た</rt></ruby>ちました、<ruby>特別的<rt>とくべつてき</rt></ruby>に、<ruby>優秀<rt>ゆうしゅう</rt></ruby>な<ruby>学生<rt>がくせい</rt></ruby>ためにです。ここで<ruby>流行<rt>りゅうこう</rt></ruby>なハイテクを<ruby>話<rt>はな</rt></ruby>せで、<ruby>自分<rt>じぶん</rt></ruby>でコード<ruby>力<rt>りょく</rt></ruby>を<ruby>練習<rt>れんしゅう</rt></ruby>できます。</p><br>
+        <p><ruby>専門的能力<rt>せんもんてきのうりょく</rt></ruby>がここで<ruby>練習<rt>れんしゅう</rt></ruby>できます。プログラミングアイディアをシェアできることだけでなく、<ruby>私<rt>わたし</rt></ruby>たちのプロジェクトも<ruby>参加<rt>さんか</rt></ruby>できます。<ruby>管理<rt>かんり</rt></ruby>グループが<ruby>面白<rt>おもしろ</rt></ruby>いと<ruby>熱<rt>あつ</rt></ruby>いのトピックを<ruby>選<rt>えら</rt></ruby>んで、<ruby>促<rt>うなが</rt></ruby>します。ほとんどメンバー<ruby>達<rt>たち</rt></ruby>は１つ<ruby>以上<rt>いじょう</rt></ruby>ユニークスキルを<ruby>持<rt>も</rt></ruby>っています。<ruby>例<rt>たと</rt></ruby>えば、Javascriptを<ruby>書<rt>か</rt></ruby>く・DevOpsがサーバーを<ruby>利用<rt>りよう</rt></ruby>する・<ruby>競技<rt>きょうぎ</rt></ruby>プログラミングに<ruby>向<rt>む</rt></ruby>けてプログラミングできる<ruby>人<rt>ひと</rt></ruby>がいます。</p><br>
+        <p><ruby>創造的<rt>そうぞうてき</rt></ruby>アイディアはここで<ruby>作<rt>つく</rt></ruby>ることができます。<ruby>上記<rt>じょうき</rt></ruby>の<ruby>通<rt>どお</rt></ruby>り、<ruby>私<rt>わたし</rt></ruby>たちのメンバーが<ruby>申<rt>も</rt></ruby>し<ruby>込<rt>こ</rt></ruby>みを<ruby>出<rt>だ</rt></ruby>せます。<ruby>承認<rt>しょうにん</rt></ruby>すれば<ruby>促<rt>うなが</rt></ruby>します。<ruby>私<rt>わたし</rt></ruby>たちの<ruby>多言語情報<rt>たげんごじょうほう</rt></ruby>システムへメンバーの<ruby>良<rt>よ</rt></ruby>い<ruby>文章<rt>ぶんしょう</rt></ruby>も出します。</p><br>
+        <p><ruby>異<rt>こと</rt></ruby>な<ruby>文化<rt>ぶんか</rt></ruby>がここで<ruby>会<rt>あ</rt></ruby>います。コンピューターサイエンスを<ruby>他<rt>ほか</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>趣味<rt>しゅみ</rt></ruby>を<ruby>持<rt></rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>も<ruby>探<rt>さが</rt></ruby>せます。<ruby>例<rt>たと</rt></ruby>えば、<ruby>外国語<rt>がいこくご</rt></ruby>・<ruby>外国<rt>がいこく</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>やコンピューターエンジニアリングを<ruby>好<rt>す</rt></ruby>きの<ruby>人<rt>ひと</rt></ruby>がいます。</p>
+
         <div class="separate">
             <fieldset><legend><a name="accordion">タイムライン</a></legend></fieldset>
         </div>
@@ -74,8 +83,8 @@
                       <br>
                         オンラインされた！
                       <br><br>更新ロッグ<br>
-                      1. 主要メンバーを変える<br>
-                      2. 翻訳フィックス
+                      1. SEO適化<br>
+                      2. 紹介文
                     </p>
                 </div>
             </li>

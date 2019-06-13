@@ -36,7 +36,7 @@
             </div>
             <div class="button">
                 <a class="layui-btn layui-btn-primary  layui-btn-lg layui-btn-radius" style="width: 170px" href="https://www.cstu.gq" target="_blank"><i
-                            class="layui-icon">&#xe609;</i> 主站
+                            class="layui-icon">&#xe609;</i> 工作室群 (英语)
                 </a>
                 <a class="layui-btn layui-btn-warm  layui-btn-lg layui-btn-radius" style="width: 170px" href="./about"><i
                             class="layui-icon">&#xe60b;</i> 关于
