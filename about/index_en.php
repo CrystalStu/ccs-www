@@ -82,8 +82,7 @@
                     <p>
                         With the great endeavour of our engineers, The version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?> of this website was successfully launched!
                       <br><br>Changelog<br>
-                      1. SEO optimization<br>
-                      2. Introduction
+                      <?php include $_SERVER['DOCUMENT_ROOT']."/changelog.php"; ?>
                     </p>
                 </div>
             </li>

@@ -82,9 +82,8 @@
                         このウェブサイトのバージョン<?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?>は
                       <br>
                         オンラインされた！
-                      <br><br>更新ロッグ<br>
-                      1. SEO適化<br>
-                      2. 紹介文
+                      <br><br>更新ロッグ (英語)<br>
+                      <?php include $_SERVER['DOCUMENT_ROOT']."/changelog.php"; ?>
                     </p>
                 </div>
             </li>

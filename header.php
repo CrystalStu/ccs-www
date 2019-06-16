@@ -20,3 +20,4 @@
     <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
     <script src="/layui/layui.js"></script>
+    <script>console.log("Welcome to Crystal Computer Studio!");</script>

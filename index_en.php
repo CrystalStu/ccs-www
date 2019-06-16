@@ -4,15 +4,15 @@
 </head>
 <body>
 
-<!-- 头 -->
+<!-- header -->
 <div class="layui-container">
     <div class="layui-row">
         <div class="layui-col-md12 main">
-            <!-- 这里四个球 -->
-            <span class="circle1"></span>
-            <span class="circle2"></span>
-            <span class="circle3"></span>
-            <span class="circle4"></span>
+            <!-- circle -->
+            <span class="circle1 layui-hide-xs"></span>
+            <span class="circle2 layui-hide-xs"></span>
+            <span class="circle3 layui-hide-xs"></span>
+            <span class="circle4 layui-hide-xs"></span>
             <div>
                 <img id="logo">
             </div>
@@ -24,17 +24,14 @@
                 </p>
             </div>
             <div class="button">
-                <a class="layui-btn layui-btn-primary  layui-btn-lg layui-btn-radius" style="width: 170px" href="https://www.cstu.gq" target="_blank"><i
-                            class="layui-icon">&#xe609;</i> Group
-                </a>
-                <a class="layui-btn layui-btn-warm  layui-btn-lg layui-btn-radius" style="width: 170px" href="./about"><i
-                            class="layui-icon">&#xe60b;</i> About
-                </a>
+                <a class="layui-btn layui-btn-primary layui-btn-lg layui-btn-radius btn1 btn1-e" href="https://www.cstu.gq" target="_blank"><i class="layui-icon">&#xe609;</i> Group</a>
+                <div class="btn-sep"></div>
+                <a class="layui-btn layui-btn-warm layui-btn-lg layui-btn-radius btn2" href="./about"><i class="layui-icon">&#xe60b;</i> About</a>
             </div>
-            <span class="bsl">Here, CCS, is a place where students can create, code, and dream, and a sub organization attached to Crystal Studios.</span>
+            <span class="bsl layui-hide-xs">Here, CCS, is a place where students can create, code, and dream, and a sub organization attached to Crystal Studios.</span>
         </div>
 
-        <!-- 介绍等 -->
+        <!-- introduction -->
         <div class="layui-row layui-col-space25">
             <div class="layui-col-md3">
                 <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
@@ -92,13 +89,13 @@
         </div>
         <br><br>
 
-        <!-- 分隔符 -->
+        <!-- separate -->
         <div class="separate">
             <fieldset><legend><a name="accordion">Project</a></legend></fieldset>
         </div>
 
         <br><br>
-        <!-- 项目 -->
+        <!-- project -->
         <div class="layui-col-space30">
             <div class="layui-col-md3">
                 <div class="box">

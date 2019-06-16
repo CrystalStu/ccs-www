@@ -46,6 +46,31 @@ body {
     background: linear-gradient(180deg, #f95c75, #f98e9f);
     animation: floatview 8s infinite;
 }
+@media screen and (min-width: 768px) {
+    .btn1-e {
+        width: 170px;
+    }
+    .btn1-jc {
+        width: 205px;
+    }
+    .btn-sep {
+        display: none;
+    }
+    .btn2 {
+        width: 170px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .btn1 {
+        width: 100%;
+    }
+    .btn-sep {
+        height: 10px;
+    }
+    .btn2 {
+        width: 100%;
+    }
+}
 @keyframes floatview {
     0% {
         transform: translateY(0)
@@ -150,7 +175,6 @@ a.widget5 .widget5-trending {
     font-size: 12px; }
 
 /* box */
-/* box 文章盒整体风格 */
 
 .box {
     background-color: #fff;

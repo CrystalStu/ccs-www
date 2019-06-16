@@ -83,9 +83,8 @@
                         Crystal 计算机工作室网站 <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?>
                       <br>
                         经过工程师们的努力之后上线！
-                      <br><br>更新日志<br>
-                      1. SEO 优化<br>
-                      2. 介绍
+                      <br><br>更新日志（英语）<br>
+                      <?php include $_SERVER['DOCUMENT_ROOT']."/changelog.php"; ?>
                     </p>
                 </div>
             </li>

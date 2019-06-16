@@ -6,9 +6,8 @@
             ,layer = layui.layer;
         //执行
         util.fixbar({
-            bar1: "&#xe614"
-            ,click: function(type){
-                console.log(type);
+            bar1: "&#xe614",
+            click: function(type) {
                 if(type === 'bar1'){
                     layer.open({
                         type: 1,
