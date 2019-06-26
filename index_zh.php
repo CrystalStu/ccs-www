@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>CCS - Crystal Studios</title>
-    <link rel="shortcut icon" href="logo.png">
-    <link rel="bookmark" href="logo.png">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/css/mdui.min.css">
-    <link rel="stylesheet" href="/layui/css/layui.css">
-    <link rel="stylesheet" href="/css/index.css">
-    <script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-    <script src="/layui/layui.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
+<?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
+    <title>Crystal 计算机工作室</title>
     <script>var lang = "zh";</script>
 </head>
+
 <body>
 
 <!-- header -->

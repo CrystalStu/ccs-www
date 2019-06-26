@@ -1,10 +1,9 @@
 
-<!-- 侧边按钮 -->
+<!-- side buttons -->
 <script>
     layui.use(['util',  'layer'], function(){
         var util = layui.util
             ,layer = layui.layer;
-        //执行
         util.fixbar({
             bar1: "&#xe614",
             click: function(type) {
@@ -42,7 +41,7 @@
                 <li><a href="https://github.com/CrystalStu" alt="GitHub"><i class="fab fa-github-alt"></i></a></li>
                 <li><strong>Powered by &copy; Crystal Web Service</strong></li>
                 <li>Version <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?></li>
-                <?php if($_COOKIE["lang"] == "zh") echo("<li id='hitokoto'>:D 获取中...</li>"); ?>
+                <?php if($_COOKIE["lang"] == "zh") echo("<li id='hitokoto' class='layui-hide-xs'>:D 获取中...</li>"); ?>
                 <li><?php
                 switch($_COOKIE["lang"]) {
                     case "zh":

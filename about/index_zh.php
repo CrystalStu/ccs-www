@@ -1,5 +1,5 @@
 <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
-<title>About - Crystal 计算机工作室</title>
+<title>关于 - Crystal 计算机工作室</title>
 <script>var lang = "zh";</script>
 </head>
 <body>
@@ -78,7 +78,7 @@
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
-                    <h3 class="layui-timeline-title">2018年8月3日</h3>
+                    <h3 class="layui-timeline-title"><?php include("changeDateProc.php"); echo(getChangeDate("zh")) ?></h3>
                     <p>
                         Crystal 计算机工作室网站 <?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?>
                       <br>

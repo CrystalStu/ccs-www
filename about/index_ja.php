@@ -77,7 +77,7 @@
             <li class="layui-timeline-item">
                 <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
                 <div class="layui-timeline-content layui-text">
-                    <h3 class="layui-timeline-title">2019年4月30日</h3>
+                    <h3 class="layui-timeline-title"><?php include("changeDateProc.php"); echo(getChangeDate("ja")) ?></h3>
                     <p>
                         このウェブサイトのバージョン<?php include $_SERVER['DOCUMENT_ROOT']."/ver.php"; ?>は
                       <br>
