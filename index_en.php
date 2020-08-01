@@ -21,10 +21,12 @@
                     <span>Crystal Computer Studio</span>
                     <br>
                     <span class="sl">Creating, Coding, and Dreaming</span>
+                    <br>
+                    <span class="bsl">A part of functions of this studio is suspending.</span>
                 </p>
             </div>
             <div class="button">
-                <a class="layui-btn layui-btn-primary layui-btn-lg layui-btn-radius btn1 btn1-e" href="https://www.cstu.gq" target="_blank"><i class="layui-icon">&#xe609;</i> Group</a>
+                <a class="layui-btn layui-btn-primary layui-btn-lg layui-btn-radius btn1 btn1-e" href="https://www.cstu.xyz" target="_blank"><i class="layui-icon">&#xe609;</i> Group</a>
                 <div class="btn-sep"></div>
                 <a class="layui-btn layui-btn-warm layui-btn-lg layui-btn-radius btn2" href="./about"><i class="layui-icon">&#xe60b;</i> About</a>
             </div>
@@ -34,7 +36,7 @@
         <!-- introduction -->
         <div class="layui-row layui-col-space25">
             <div class="layui-col-md3">
-                <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
+                <a class="widget5" href="https://github.com/TURX" target="_blank">
                     <div class="widget5-trending">
                         <img class="avatar-turx">
                     </div>
@@ -48,7 +50,7 @@
 
 
             <div class="layui-col-md3">
-                <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
+                <a class="widget5" href="https://github.com/callG" target="_blank">
                     <div class="widget5-trending">
                         <img class="avatar-callg">
                     </div>
@@ -61,7 +63,7 @@
             </div>
 
             <div class="layui-col-md3">
-                <a class="widget5" href="https://git.cstu.gq/Stardust" target="_blank">
+                <a class="widget5" href="https://github.com/Stardust" target="_blank">
                     <div class="widget5-trending">
                         <img class="avatar-stardust">
                     </div>
@@ -101,7 +103,7 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/MCQ/ModernMinecraft/">Modern Minecraft</a>
+                            <a href="https://github.com/CrystalStu/ModernMinecraft">Modern Minecraft</a>
                         </h2>
                         <div class="box-desc">
                             <span>This is a reconstructed, modernized game launcher for Minecraft players based on KMCCC.</span>
@@ -144,7 +146,7 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
+                            <a href="https://github.com/CrystalStu/cu-www">Crystal Web Service</a>
                         </h2>
                         <div class="box-desc">
                             <span>A part of websites for our departments</span>
@@ -167,7 +169,7 @@
                 <div class="box">
                     <div class="box-body">
                         <h2 class="box-zht">
-                            <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
+                            <a href="https://github.com/CrystalStu/QL-WPF">QL_WPF</a>
                         </h2>
                         <div class="box-desc">
                             <span>Quick Launcher<br>A software for teachers based on WPF</span>

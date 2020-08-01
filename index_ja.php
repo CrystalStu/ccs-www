@@ -20,11 +20,13 @@
                 <p class="fl">
                     <span>Crystalコンピュータースタジオ</span>
                     <br>
-                    <span class="sl">ここで夢を叶えています。</span>
+                    <span class="sl">ここで夢を叶えている。</span>
+                    <br>
+                    <span class="bsl">このスタジオの機能は一部停止している。</span>
                 </p>
             </div>
             <div class="button">
-                <a class="layui-btn layui-btn-primary layui-btn-lg layui-btn-radius btn1 btn1-jc" href="https://www.cstu.gq" target="_blank"><i class="layui-icon">&#xe609;</i> グループ (英語)</a>
+                <a class="layui-btn layui-btn-primary layui-btn-lg layui-btn-radius btn1 btn1-jc" href="https://www.cstu.xyz" target="_blank"><i class="layui-icon">&#xe609;</i> グループ (英語)</a>
                 <div class="btn-sep"></div>
                 <a class="layui-btn layui-btn-warm layui-btn-lg layui-btn-radius btn2" href="./about"><i class="layui-icon">&#xe60b;</i> について</a>
             </div>
@@ -33,7 +35,7 @@
 <!-- introduction -->
 <div class="layui-row layui-col-space25">
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/TURX" target="_blank">
+        <a class="widget5" href="https://github.com/TURX" target="_blank">
             <div class="widget5-trending">
                 <img class="avatar-turx">
             </div>
@@ -47,7 +49,7 @@
 
 
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/callG" target="_blank">
+        <a class="widget5" href="https://github.com/callG" target="_blank">
             <div class="widget5-trending">
                 <img class="avatar-callg">
             </div>
@@ -60,7 +62,7 @@
     </div>
 
     <div class="layui-col-md3">
-        <a class="widget5" href="https://git.cstu.gq/Stardust" target="_blank">
+        <a class="widget5" href="https://github.com/Stardust" target="_blank">
             <div class="widget5-trending">
                 <img class="avatar-stardust">
             </div>
@@ -100,7 +102,7 @@
             <div class="box">
                 <div class="box-body">
                     <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/MCQ/ModernMinecraft/">Modern Minecraft</a>
+                        <a href="https://github.com/CrystalStu/ModernMinecraft">Modern Minecraft</a>
                     </h2>
                     <div class="box-desc">
                         <span>これはマインクラフトのプレーヤーのためにKMCCCを基づいて現代感があるのゲームランチャーのリストラバージョンである。</span>
@@ -143,7 +145,7 @@
             <div class="box">
                 <div class="box-body">
                     <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/CWS">Crystal Web Service</a>
+                        <a href="https://github.com/CrystalStu/cu-www">Crystal Web Service</a>
                     </h2>
                     <div class="box-desc">
                         <span>一部のCrystalスタジオグループのウェブサイトである。</span>
@@ -166,7 +168,7 @@
             <div class="box">
                 <div class="box-body">
                     <h2 class="box-zht">
-                        <a href="https://git.cstu.gq/CCS/QL_WPF/">QL_WPF</a>
+                        <a href="https://github.com/CrystalStu/QL-WPF">QL_WPF</a>
                     </h2>
                     <div class="box-desc">
                         <span>Quick Launcher<br>教師のためにWPFでユーティリティプログラムを作ってみた。</span>

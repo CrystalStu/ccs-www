@@ -35,7 +35,6 @@
     <div class="layui-col-md12">
         <div class="s-footer">
             <ul>
-                <li><a href="mailto:master@mail.cstu.gq" alt="Email"><i class="fas fa-envelope"></i></a></li>
                 <li><a href="https://twitter.com/crystalstuX" alt="Twitter"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://t.me/crystalccs" alt="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
                 <li><a href="https://github.com/CrystalStu" alt="GitHub"><i class="fab fa-github-alt"></i></a></li>
